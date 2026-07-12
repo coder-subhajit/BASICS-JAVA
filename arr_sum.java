@@ -1,4 +1,4 @@
-
+//The sum of 1D array
     import java.util.Scanner;
 public class arr_sum{
     public static void main(String args[]){
