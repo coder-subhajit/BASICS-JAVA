@@ -9,6 +9,6 @@ public static void main(String[] args){
         for(int j=0;j<n;j++){
             System.out.print("* ");
         }System.out.println(" ");
-    }
+    } sc.close();
 }
 }
