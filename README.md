@@ -9,10 +9,7 @@ This repo is where I practice core Java fundamentals before moving into DSA patt
 ## 🗂️ Structure
 
 ```
-BASICS-JAVA/
-├── array.java       # Array basics — declaration, traversal, operations
-├── arr_sum.java      # Summing elements of an array
-└── README.md
+
 ```
 
 *(This will grow as I add more files — new topics get appended here.)*
