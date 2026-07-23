@@ -24,8 +24,6 @@ public class DAY_1_USER_INPUT {
         System.out.println(n6);
         byte age=120;
         System.out.println(age);
-
-
 } 
     }
 
