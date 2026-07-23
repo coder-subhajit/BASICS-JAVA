@@ -1,6 +1,3 @@
-//using brute force approach  
-
-import java.util.Arrays;
 import java.util.Scanner;
 public class Merge_Sorted_Array {
     public static void main(String[] args) {
@@ -22,6 +19,8 @@ public class Merge_Sorted_Array {
          nums2[i]=x.nextInt();
         }
         int[] merge=new int[n1+n2];
+        //USE BRUTE FORCE
+        /* 
         for(int i=0;i<n1;i++){
             merge[i]=nums1[i]; 
         }
@@ -32,6 +31,34 @@ public class Merge_Sorted_Array {
          System.out.print("The Merge Sorted Array:");
         for(int i=0;i<n1+n2;i++){
           System.out.print(merge[i]+" ");
-        }
+        } */
+       //USE TWO POINTERS
+       int i=0,j=0,k=0;
+       //compare the elements from both arrays
+       while(i<n1&&j<n2){
+        if(nums1[i]<=nums2[j]){
+            merge[k]=nums1[i];
+            i++;
+        }else{
+            merge[k]=nums2[j];
+            j++;
+        } k++;
+       }
+       //copy remaining elements of the first arrays
+       while(i<n1){
+        merge[k]=nums1[i];
+        i++;
+        k++;
+       }
+       //copy remaining elements of the second arrays
+       while(j<n2){
+        merge[k]=nums2[j];
+        j++;
+        k++;
+       }
+       System.out.println("Merge Sorted Array:");
+       for(int num : merge){
+        System.out.print(num+" ");
+       }
     }
 }
