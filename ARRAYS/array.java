@@ -12,8 +12,6 @@ public class array{
     System.out.println("Array elements are:");
     for(int i=0;i<arr.length;i++){
         System.out.print( arr[i]+" ");
-    } sc.close();
-
-    
+    } sc.close();   
     }
 }
