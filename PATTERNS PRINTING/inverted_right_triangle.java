@@ -10,5 +10,5 @@ public class  inverted_right_triangle{
             }System.out.println();
         }System.out.println();
     }
-
-    }}
+    }
+}
