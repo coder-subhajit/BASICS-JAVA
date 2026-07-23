@@ -13,7 +13,7 @@ public class ABC_Square {
             System.out.print(" "+ch);
             ch++;
         }System.out.println();
-    }
+   }
  }   
 }
  
