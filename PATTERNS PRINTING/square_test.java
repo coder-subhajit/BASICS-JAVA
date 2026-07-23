@@ -17,7 +17,8 @@ public class square_test {
          }System.out.println();
          t--;
         }
-         }}
+         }
+}
 
 
     
