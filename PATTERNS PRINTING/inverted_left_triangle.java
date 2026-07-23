@@ -13,3 +13,4 @@ public class inverted_left_triangle {
         }
     }
 }
+ 
