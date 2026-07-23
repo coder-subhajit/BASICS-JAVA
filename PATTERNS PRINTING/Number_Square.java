@@ -14,3 +14,4 @@ public class Number_Square {
     }
  }   
 }
+ 
