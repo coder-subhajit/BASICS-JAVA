@@ -15,3 +15,4 @@ public class Inverted_Pyramid {
     }
 }
 }
+ 
