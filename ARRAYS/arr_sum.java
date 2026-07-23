@@ -18,7 +18,5 @@ public class arr_sum{
 }
         System.out.println("The sum of the elements are:"+sum);
      sc.close();
-
-    
     }
 }
