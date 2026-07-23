@@ -49,12 +49,18 @@ public class User_Input {
      System.out.println("The element of the list is(using for each loop):");
     for(int num : list){
       System.out.println(num);
+
     }
 
     //PERFORM SORTING USING COLLCTIONS PACKAGE
-    System.out.println("The sorted order of list is:");
+    System.out.println("The sorted order of list is(Increasing Order):");
     Collections.sort(list);
     System.out.println(list);
+    
+    System.out.println("The sorted order of list is(Decreasing Order):");
+    Collections.sort(list,Collections.reverseOrder());
+    System.out.println(list);
+
 
     //CLEAR THE ENTIRE LIST
     list.clear();
