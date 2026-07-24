@@ -1,4 +1,6 @@
-# BASICS-JAVA 🟠
+# BASICS-JAVA 🟠 
+
+Write Once, Run Anywhere...
 
 A collection of Java programs written while building a strong foundation in core Java concepts, as part of my prep for Data Structures & Algorithms and SDE interviews.
 
