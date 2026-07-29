@@ -1,3 +1,8 @@
+<<<<<<< Updated upstream
+=======
+//using brute force approach  
+
+>>>>>>> Stashed changes
 import java.util.Scanner;
 public class Merge_Sorted_Array {
     public static void main(String[] args) {

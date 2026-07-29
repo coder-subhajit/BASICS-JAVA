@@ -20,3 +20,4 @@ public class arr_sum{
      sc.close();
     }
 }
+ 
