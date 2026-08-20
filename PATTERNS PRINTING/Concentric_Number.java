@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Concentric_Number {
+    public static void main(String[] args) {
+        System.out.print("Enter the numbers of terms:");
+        Scanner x=new Scanner(System.in);
+        int n=x.nextInt();
+        int size=2*n-1;
+        for(int i=0;i<size;i++){
+            for(int j=0;j<size;j++){
+                int min=Math.min(Math.min(i,j),Math.min(size-1-i,size-1-j));
+                System.out.print(n-min);
+            }
+            System.out.println();
+        }
+    }
+}
